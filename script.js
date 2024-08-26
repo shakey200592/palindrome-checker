@@ -1,6 +1,6 @@
 const userInputElement = document.getElementById("text-input");
 const checkButtonElement = document.getElementById("check-btn");
-const resultElement = document.getElementById("user-input")
+const resultElement = document.getElementById("result")
 
 const checkInputIsValid = () => {
     const userInputValue = userInputElement.value;

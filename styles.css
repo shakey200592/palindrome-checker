@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0a0a23;
+    color: #ffffff;
+}
+
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#palindrome-form-div {
+    width: min(100vw, 450px);
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 6px 6px #002ead;
+}
+
+#text-input-text {
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+#text-input {
+    height: 30px;
+    width: 280px;
+    text-align: center;
+    font-size: 1.23rem;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #5a01a7;
+}
+
+#check-btn {
+    width: 90px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #5a01a7;
+    color: #fff;
+}
+
+#result {
+    overflow-y: auto;
+    font-size: 25px;
+    word-wrap: break-word;
+    min-height: 50px;
+    color: black;
+    padding: 20px;
+}
